@@ -3,9 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
-
 	"sync"
-
 	"time"
 
 	"google.golang.org/api/drive/v3"
