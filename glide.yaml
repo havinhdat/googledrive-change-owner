@@ -1,0 +1,11 @@
+package: ""
+import:
+- package: google.golang.org/api
+  subpackages:
+  - drive/v3
+- package: golang.org/x/oauth2
+  subpackages:
+  - '...'
+- package: golang.org/x/net
+  subpackages:
+  - '...'
