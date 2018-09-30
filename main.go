@@ -49,6 +49,7 @@ func getFoldersFilesRecursive(service *drive.Service, space string, folder drive
 	return folders, files
 }
 
+// GetDriveFolderFilesRecursive ...
 func GetDriveFolderFilesRecursive(service *drive.Service, folder driveFolder) (folders, files []*drive.File) {
 	folders = []*drive.File{}
 	files = []*drive.File{}
